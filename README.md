@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project implements a decentralized autonomous organization (DAO) focused on providing transparent, secure, and efficient cyber insurance through Ethereum smart contracts. The DAO leverages blockchain technology, an ERC-20 governance token, automated premium adjustments, on-chain analytics, and Chainlink oracle integration for external cybersecurity incident verification.
+This project implements a decentralized autonomous organization (DAO) focused on providing transparent, secure, and efficient cyber insurance through Ethereum smart contracts. The DAO leverages blockchain technology, an ERC-20 governance token, automated premium adjustments, on-chain analytics, and Chainlink oracle integration for external cybersecurity incident verification. This project was created for the course Blockchain and Cryptocurrency, at NYU Tandon, 2025. 
 
 ## Motivation
 
@@ -13,6 +13,7 @@ Traditional insurance processes often lack transparency, efficiency, and respons
 This repository contains two primary Solidity smart contracts:
 
 - `CyberToken.sol`: ERC-20 token used for staking and governance.
+
 - `CyberInsuranceDAO.sol`: Core DAO contract managing claims, voting, staking, automated premium adjustments, on-chain analytics, and oracle integration.
 
 ## Understanding and Concept
@@ -20,10 +21,14 @@ This repository contains two primary Solidity smart contracts:
 The DAO operates through:
 
 - **Claim Management**: Members submit claims that are voted upon by token-holding members.
+
 - **Governance via ERC-20 Tokens**: Voting power is determined by the amount of CyberTokens staked by members.
+
 - **Automated Premium Adjustments**: Premium rates are dynamically adjusted based on claim outcomes.
+
 - **On-chain Analytics**: DAO performance metrics such as total claims, approved/rejected/disputed claims, voting statistics, and liquidity health are tracked transparently.
-- **Oracle Integration**: Optional Chainlink oracle integration enables external cybersecurity incident verification, enhancing decision accuracy.
+
+- **Oracle Integration**: Optional Chainlink oracle integration enables external cybersecurity incident verification, enhancing decision accuracy. Although, we could not find any current repository for real time data for cyber threats, we chave provided an dummy API which can be replaced based on usecase, or local API documentation. 
 
 ## Deployment Steps
 
@@ -58,7 +63,16 @@ This project demonstrates a practical application of blockchain technology and d
 
 ## Contributions
 
+Main Contirbutions:
+
+- Jeetesh Gowder, NYU, 2025
+
+- Pratham Gupta, NYU, 2025
+
+- Saurabh Rajguru, NYU, 2025
+ 
 Contributions, feature enhancements, and improvements are welcome. Please fork the repository, make your changes, and submit a pull request.
+
 
 ## License
 
